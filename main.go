@@ -77,10 +77,10 @@ func main() {
 	fmt.Println("---------------Bài 6---------------")
 	var slice = []int{11, 34, 56, 77, 99, 109, 66, 20, 88, 34}
 	a := slice[1:7]
-	b := a[1:8]
+	//b := a[1:15] => báo lỗi
 	fmt.Println(slice)
 	fmt.Println(a)
-	fmt.Println(b)
+	// fmt.Println(b)
 	fmt.Print("-----------------Bài 7---------------\n")
 	getUser := User{}
 	getUser.name = "Hà Hoàng Tú"
